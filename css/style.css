@@ -1,0 +1,23 @@
+#navi_p{
+  list-style: none;
+}
+#navi_p li {
+  margin:10px;
+  float: inherit;
+  }
+#navi_p li a{
+  display: block;
+  width: 200px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-left: 10px solid #ff8333;
+}
+#navi_p li a:hover {
+  color:#ffff00; /* define el color del texto al pasar el mouse */
+  background-color:blue; /* define el color del relleno del bot�n al pasar el mouse */
+  border-left-color:#ff0000; /* Luego le cambio el color del borde izquierdo en el evento hover. */
+  }
