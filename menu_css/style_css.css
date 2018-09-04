@@ -1,0 +1,46 @@
+/* Configurando la LI */
+#navi_d {
+        list-style-type:disk;
+        }
+
+#navi_s {
+        list-style-type:square;
+        }
+
+#navi_c {
+        list-style-type:circle;
+        }
+
+#navi_i {
+        padding-left:100px;
+        list-style-image:url(apple.gif);
+        }
+
+/*Finalmente*/
+#navi_f {
+        /* list-style-image:url(apple.gif); */
+	list-style:none;
+        }
+
+#navi_f li {
+  margin:10px;
+  float:left;
+  }
+
+#navi_f li a {
+  display: block;
+  width:200px; /* define el ancho del bot�n */
+  padding:10px; /*indica la altura del bot�n */
+  text-decoration:none;
+  text-align:center;
+  font-size:18px;
+  color:#FFFFFF;
+  background-color:#000000;
+  border-left:10px solid #fcff33; /*marca el borde izquierdo del bot�n como vi�eta */
+  }
+
+#navi_f li a:hover {
+  color:#ffff00; /* define el color del texto al pasar el mouse */
+  background-color:blue; /* define el color del relleno del bot�n al pasar el mouse */
+  border-left-color:#ff0000; /* Luego le cambio el color del borde izquierdo en el evento hover. */
+  }
